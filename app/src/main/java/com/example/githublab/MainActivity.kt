@@ -29,9 +29,6 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
-// this  is Feature 1
-//this is Feature 2 commit1
-//this is featrue 2 commit2
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
