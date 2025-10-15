@@ -57,7 +57,7 @@ fun HomeScreen(
                     icon = {
                         Icon(
                             painter = painterResource(id = R.drawable.logout_24px),
-                            contentDescription = "Home")
+                            contentDescription = "Auth")
                     },
                     label = {
                         Text(
@@ -71,7 +71,7 @@ fun HomeScreen(
                     icon = {
                         Icon(
                             Icons.Default.Person,
-                            contentDescription = "Home")
+                            contentDescription = "Profile")
                     },
                     label = {
                         Text(
