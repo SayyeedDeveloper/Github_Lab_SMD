@@ -4,10 +4,10 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import com.example.githublab.AuthScreen
-import com.example.githublab.HomeScreen
-import com.example.githublab.ProfileScreen
-import com.example.githublab.Screens
+import com.example.githublab.presentation.auth.AuthScreen
+import com.example.githublab.presentation.home.HomeScreen
+import com.example.githublab.presentation.profile.ProfileScreen
+import com.example.githublab.navigation.screens.Screens
 
 @Composable
 fun AppNavigation(navController: NavHostController) {
