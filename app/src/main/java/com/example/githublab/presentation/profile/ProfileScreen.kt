@@ -1,4 +1,4 @@
-package com.example.githublab
+package com.example.githublab.presentation.profile
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
@@ -17,6 +17,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
+import androidx.navigation.compose.rememberNavController
+import com.example.githublab.navigation.screens.Screens
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -61,7 +63,7 @@ fun ProfileScreen(
 @Composable
 fun ProfileScreenPrev (){
     ProfileScreen(
-        navController = androidx.navigation.compose.rememberNavController(),
+        navController = rememberNavController(),
         modifier = Modifier
     )
 }

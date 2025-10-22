@@ -1,7 +1,6 @@
-package com.example.githublab
+package com.example.githublab.navigation.screens
 
 import kotlinx.serialization.Serializable
-import kotlinx.serialization.Serializer
 
 @Serializable
 sealed class Screens(val route: String) {

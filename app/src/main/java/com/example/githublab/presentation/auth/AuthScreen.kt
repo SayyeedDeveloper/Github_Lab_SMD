@@ -1,4 +1,4 @@
-package com.example.githublab
+package com.example.githublab.presentation.auth
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -25,6 +25,8 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.setValue
+import androidx.navigation.compose.rememberNavController
+import com.example.githublab.navigation.screens.Screens
 
 @Composable
 fun AuthScreen(
@@ -85,5 +87,5 @@ fun AuthScreen(
 @Preview
 @Composable
 fun AuthScreenPreview() {
-    AuthScreen(navController = androidx.navigation.compose.rememberNavController())
+    AuthScreen(navController = rememberNavController())
 }
